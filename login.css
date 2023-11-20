@@ -1,0 +1,84 @@
+body
+{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: hotpink;
+}
+.pinky,a
+{
+    display: block;
+}
+#cont
+{
+    /* how to centre a division? */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+form
+{
+    background-color: aqua;
+    width: 20%;
+    border-radius:5px;
+    padding:20px;
+}
+form h2
+{
+text-align: center;
+text-transform: uppercase;
+font-size: 25px;
+color: brown;
+}
+form label
+{
+    color:brown;
+    font-size: 20px;
+}
+form .paisa
+{
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+}
+form #btn
+{
+    display: flex;
+    justify-content: space-between;
+}
+button
+{
+    width: 30%;
+    height: 25px;
+    background-color: yellow;
+    color:brown;
+}
+#btn1
+{
+    background-color: greenyellow;
+}
+form a
+{
+    text-decoration: none;
+    color: brown;
+    font-size: 20px;
+}
+.fa-user
+{
+    position: absolute;
+    top:26px;
+    left:3px;
+}
+#user
+{
+    position: relative;
+}
+input
+{
+    padding: left;
+}
+
+
+
